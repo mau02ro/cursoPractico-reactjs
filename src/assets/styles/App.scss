@@ -1,4 +1,12 @@
-* {
-  padding: 0;
+$principal: #8f57fd;
+$blanco: #ffffff;
+
+body {
   margin: 0;
+  font-family: "Muli", sans-serif;
+  background: $principal;
+}
+
+* {
+  box-sizing: border-box;
 }
