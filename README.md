@@ -97,3 +97,9 @@ Ahora que entendemos cada una de las fases que tiene el ciclo de vida de react, 
 ```
 npm i --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader
 ```
+
+## Webpack
+
+```
+npm i --save-dev webpack webpack-cli html-webpack-plugin html-loader
+```
