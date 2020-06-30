@@ -1,9 +1,8 @@
-$principal: #8f57fd;
-$blanco: #ffffff;
+@import "./Vars.scss";
 
 body {
   margin: 0;
-  font-family: "Muli", sans-serif;
+  font-family: $theme-font;
   background: $principal;
 }
 
