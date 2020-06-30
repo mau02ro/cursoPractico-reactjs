@@ -101,5 +101,13 @@ npm i --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader
 ## Webpack
 
 ```
-npm i --save-dev webpack webpack-cli html-webpack-plugin html-loader
+npm i --save-dev webpack webpack-cli html-webpack-plugin html-loader webpack-dev-server
+```
+
+## SASS
+
+Los preprocesadores como Sass son herramientas que nos permiten escribir CSS con una sintaxis un poco diferente y más amigable que luego se transformará en CSS normal. Gracias a Sass podemos escribir CSS con variables, mixins,bucles, entre otras caracteristicas.
+
+```
+npm i --save-dev mini-css-extract-plugin css-loader node-sass sass-loader
 ```
