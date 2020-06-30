@@ -91,3 +91,9 @@ Una vez que se lanza un error este es el primer método que se llama, el cual re
 Este método es llamado después de lanzarse un error y pasa como argumento el error y la información representada sobre el error.
 
 Ahora que entendemos cada una de las fases que tiene el ciclo de vida de react, podemos utilizarlas según sea necesario en nuestra aplicación y de esta forma crear las interacciones que necesitemos.
+
+## Babel
+
+```
+npm i --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader
+```
