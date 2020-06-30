@@ -111,3 +111,14 @@ Los preprocesadores como Sass son herramientas que nos permiten escribir CSS con
 ```
 npm i --save-dev mini-css-extract-plugin css-loader node-sass sass-loader
 ```
+
+## ESLint y Git Ignore
+
+El **Git Ignore** es un archivo que nos permite definir qué archivo NO queremos publicar en nuestros repositorios.Solo debemos crear el archivo .gitignore y escribir los nombres de los archivos y/o carpetas que no queremos publicar.
+
+Los linteres como **ESLint** son herramientas que nos ayudan a seguir buenas práticas o guías de estilos de nuestro código.
+Se encargan de revisar el código que escribimos para indicarnos dónde tenemos errores o posibles errores.En algunos casos también pueden solucionar los errores automáticamente. De esta manera podemos solucionar los errores incluso antes de que sucedan.
+
+```
+npm i --save-dev eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y
+```
