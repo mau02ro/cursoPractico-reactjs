@@ -21,9 +21,9 @@ const App = () => {
           <CarouselItem />
           <CarouselItem />
           <CarouselItem />
-          <Footer />
         </Caroursel>
       </Categories>
+      <Footer />
     </div>
   );
 };
